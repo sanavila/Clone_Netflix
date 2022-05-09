@@ -15,7 +15,7 @@
     overflow-x: hidden;
     width: 100vw;
     transition: all 1s;
-    position: relative;
+    position: relative; 
 }
 .buttonList {
     background-color: rgba(0, 0, 0, .50);
@@ -25,10 +25,20 @@
     cursor: pointer;
     height: 225px;
     font-size: 40px;   
-}
-.movieButtons {
+    opacity: 0.5;
     position: absolute;
     z-index: 1;
+}
+.buttonright {
+    right: 0;
+}
+.buttonList:hover {
+    opacity: 0.98;
+}
+.container-filmes {
+    display: flex;
+    position: relative;
+    top: -60px;
 }
 
 

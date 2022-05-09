@@ -19,6 +19,7 @@ const getMovies = async () => {
 
 getMovies()
 
+//funções para os butões
 const retroceder = () => {
     if (carrossel.scrollLeft -100 <= 0) {
         carrossel.scrollLeft = carrossel.offsetWidth

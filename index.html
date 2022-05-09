@@ -43,12 +43,17 @@
                 </div>
             </div>
         </div>
-    </main>
-    <button onclick="retroceder()">&lt;</button>
-    <div class="carrossel-filmes">
-        <div class="rolMovies"></div>
+    </main> 
+    <div class="container-filmes">
+        <div class="movieButtons">
+            <button onclick="retroceder()" class="buttonList">&lt;</button>
+            <button onclick="avancar()" class="buttonList">&gt;</button>
+        </div>
+        <div class="carrossel-filmes">
+            <div class="rolMovies"></div>
+        </div>
     </div>
-    <button onclick="avancar()">&gt;</button>
     <script src="https://kit.fontawesome.com/383db8a962.js" crossorigin="anonymous"></script>
     <script src="js/owl/tmdb.js"></script>
+
 </html>

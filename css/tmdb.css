@@ -2,6 +2,7 @@
     width: 150px;
     height: 225px;
     transform: scale(0.9);
+    transition: all ease 0.2s;
 }
 .rolMovies img:hover {
     transform: scale(1);
@@ -14,5 +15,20 @@
     overflow-x: hidden;
     width: 100vw;
     transition: all 1s;
+    position: relative;
 }
+.buttonList {
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    height: 225px;
+    font-size: 40px;   
+}
+.movieButtons {
+    position: absolute;
+    z-index: 1;
+}
+
 

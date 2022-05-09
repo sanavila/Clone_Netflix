@@ -20,8 +20,18 @@ const getMovies = async () => {
 getMovies()
 
 const retroceder = () => {
-    carrossel.scrollLeft -= 100;
+    if (carrossel.scrollLeft -100 <= 0) {
+        carrossel.scrollLeft = carrossel.offsetWidth
+    } else {
+        carrossel.scrollLeft -= 100;
+    }
+
 }
 const avancar = () => {
-    carrossel.scrollLeft += 100;
+    console.log(carrossel.offsetWidth, carrossel.scrollLeft)
+    if (carrossel.scrollLeft +100 >= carrossel.offsetWidth) {
+        carrossel.scrollLeft = 0
+    } else {
+        carrossel.scrollLeft += 100;
+    }
 }

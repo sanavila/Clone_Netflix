@@ -13,5 +13,6 @@
 .carrossel-filmes {
     overflow-x: hidden;
     width: 100vw;
+    transition: all 1s;
 }
 

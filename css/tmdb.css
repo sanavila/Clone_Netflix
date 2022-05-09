@@ -1,0 +1,17 @@
+.rolMovies img {
+    width: 150px;
+    height: 225px;
+    transform: scale(0.9);
+}
+.rolMovies img:hover {
+    transform: scale(1);
+}
+.rolMovies {
+    padding: 0;
+    display: flex;
+}
+.carrossel-filmes {
+    overflow-x: hidden;
+    width: 100vw;
+}
+
